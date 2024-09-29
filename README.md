@@ -1,14 +1,16 @@
-# java-cli-millbuild-erath-sieve
+# java-cli-jlink-buildr-hello-world
 
 ## Description
-Given a number N, print all prime numbers smaller than N.
+Demo of buildr build.
 
 ## Tech stack
+- jlink
 - java
-- mill
+- buildr
 
 ## Docker stack
-- nightscape/scala-mill
+- ubuntu:22.04
+- vanto/apache-buildr:latest-jruby-jdk8
 
 ## To run
 `sudo ./install.sh -u`
